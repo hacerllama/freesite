@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+    <title>HOME PAGE </title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="nav-wrapper">
+
+            <div class="left-side">
+
+                <div class="nav-link-wrapper">
+
+                 <a href="index.html">home</a>
+
+                         </div> 
+
+                <div class="nav-link-wrapper">
+
+                 <a href="about.html">about</a> 
+
+                      </div>
+            
+            
+            
+            
+            </div>
+
+            <div class="left-side">
+                <div class="brand">
+                      <div>YUSUF YILMAZ</div>
+                </div>
+            </div>
+           
+            
+
+    </div>
+    
+    <div class="content-wrapper">
+    <div class="image-items-wrapper">
+
+        <div class="image-item-wrapper">
+        <div class="image-img-background" style="background-image:url(image/Adsız\ tasarım.png)"></div>
+        </div>
+
+    </div>
+</div>
+
+ <div class="content-wrapper">
+
+    <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background"  style="background-image:url(image/Adsız\ tasarım.png)"></div>
+           
+               <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                   <img src="image/LogoMakr-7jV0MG.png">
+                </div>
+                  <div class="subtitle">
+                      MADE BY :LLAMA
+                  </div>
+   
+   
+   
+            </div>
+           </div><div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background"  style="background-image:url(image/Adsız\ tasarım.png)"></div>
+           
+               <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                   <img src="image/LogoMakr-7jV0MG.png">
+                </div>
+                  <div class="subtitle">
+                      MADE BY :LLAMA
+                  </div>
+   
+   
+   
+            </div>
+           </div> 
+           <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background"  style="background-image:url(image/Adsız\ tasarım.png)"></div>
+           
+               <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                   <img src="image/LogoMakr-7jV0MG.png">
+                </div>
+                  <div class="subtitle">
+                      MADE BY :LLAMA
+                  </div>
+   
+   
+   
+            </div>
+           </div>
+
+ </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+<script>
+const portfolioİtems = document.querySelectorAll('.portfolio-item-wrapper')
+portfolioİtems.forEach(portfolioİtem => {
+portfolioİtem.addEventListener('mouseover' ,() =>  {
+portfolioİtem.childNodes[1].classList.add('img-darken');
+
+
+}) 
+portfolioİtem.addEventListener('mouseout' ,() =>  {
+portfolioİtem.childNodes[1].classList.remove('img-darken');
+
+
+} )
+
+})
+
+
+
+
+
+
+
+</script>
+
+</html>
